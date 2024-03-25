@@ -1,0 +1,12 @@
+DBT_ProjMarch_April:
+  outputs:
+    dev:
+      dbname: dev
+      host: default-workgroup.187967548877.us-east-1.redshift-serverless.amazonaws.com
+      password: 21Elmhill
+      port: 5439
+      schema: public
+      threads: 1
+      type: redshift
+      user: admin
+  target: dev
